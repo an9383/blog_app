@@ -1,8 +1,8 @@
-package me.shinsunyoung.springbootdeveloper.service;
+package org.sb0907.blogapp.service;
 
 import lombok.RequiredArgsConstructor;
-import me.shinsunyoung.springbootdeveloper.config.jwt.TokenProvider;
-import me.shinsunyoung.springbootdeveloper.domain.User;
+import org.sb0907.blogapp.config.jwt.TokenProvider;
+import org.sb0907.blogapp.domain.User;
 import org.springframework.stereotype.Service;
 
 import java.time.Duration;

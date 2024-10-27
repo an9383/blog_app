@@ -1,4 +1,4 @@
-package me.shinsunyoung.springbootdeveloper.dto;
+package org.sb0907.blogapp.dto;
 
 import lombok.Getter;
 import lombok.Setter;

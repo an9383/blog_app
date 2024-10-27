@@ -1,13 +1,13 @@
-package me.shinsunyoung.springbootdeveloper.controller;
+package org.sb0907.blogapp.controller;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
-import me.shinsunyoung.springbootdeveloper.config.jwt.JwtFactory;
-import me.shinsunyoung.springbootdeveloper.config.jwt.JwtProperties;
-import me.shinsunyoung.springbootdeveloper.domain.RefreshToken;
-import me.shinsunyoung.springbootdeveloper.domain.User;
-import me.shinsunyoung.springbootdeveloper.dto.CreateAccessTokenRequest;
-import me.shinsunyoung.springbootdeveloper.repository.RefreshTokenRepository;
-import me.shinsunyoung.springbootdeveloper.repository.UserRepository;
+import org.sb0907.blogapp.config.jwt.JwtFactory;
+import org.sb0907.blogapp.config.jwt.JwtProperties;
+import org.sb0907.blogapp.domain.RefreshToken;
+import org.sb0907.blogapp.domain.User;
+import org.sb0907.blogapp.dto.CreateAccessTokenRequest;
+import org.sb0907.blogapp.repository.RefreshTokenRepository;
+import org.sb0907.blogapp.repository.UserRepository;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;

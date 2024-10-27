@@ -1,9 +1,9 @@
-package me.shinsunyoung.springbootdeveloper.controller;
+package org.sb0907.blogapp.controller;
 
 import lombok.RequiredArgsConstructor;
-import me.shinsunyoung.springbootdeveloper.dto.CreateAccessTokenRequest;
-import me.shinsunyoung.springbootdeveloper.dto.CreateAccessTokenResponse;
-import me.shinsunyoung.springbootdeveloper.service.TokenService;
+import org.sb0907.blogapp.dto.CreateAccessTokenRequest;
+import org.sb0907.blogapp.dto.CreateAccessTokenResponse;
+import org.sb0907.blogapp.service.TokenService;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.PostMapping;
